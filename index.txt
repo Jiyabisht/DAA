@@ -5,4 +5,4 @@ Remove Duplicates from Sorted Array(L)-https://leetcode.com/problems/remove-dupl
 Largest Element in Array(GFG)-https://www.geeksforgeeks.org/problems/largest-element-in-array4009/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-element-in-array
 Second Largest(GFG)-https://www.geeksforgeeks.org/problems/second-largest3735/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=second-largestCheck if Array Is Sorted(L)-https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 Rotate Array by One clockwise(GFG)-https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
-Rotate clockwise(right) d times
+Rotate clockwise(right) d times(Bruteforce)
