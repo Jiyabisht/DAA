@@ -6,3 +6,4 @@ Largest Element in Array(GFG)-https://www.geeksforgeeks.org/problems/largest-ele
 Second Largest(GFG)-https://www.geeksforgeeks.org/problems/second-largest3735/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=second-largestCheck if Array Is Sorted(L)-https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 Rotate Array by One clockwise(GFG)-https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
 Rotate clockwise(right) d times(Bruteforce)
+Linear Search(GFG)-https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=who-will-win
