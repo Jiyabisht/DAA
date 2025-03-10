@@ -7,3 +7,6 @@ Second Largest(GFG)-https://www.geeksforgeeks.org/problems/second-largest3735/1?
 Rotate Array by One clockwise(GFG)-https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
 Rotate clockwise(right) d times(Bruteforce)
 Linear Search(GFG)-https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=who-will-win
+Linear searching of an element-O(n)
+binary search of an element-O(log base2 n)
+jump search an element-O(root n)
