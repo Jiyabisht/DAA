@@ -10,3 +10,4 @@ Linear Search(GFG)-https://www.geeksforgeeks.org/problems/who-will-win-158711562
 Linear searching of an element-O(n)
 binary search of an element-O(log base2 n)
 jump search an element-O(root n)
+Insertion sort-O(n)
