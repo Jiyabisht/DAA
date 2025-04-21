@@ -22,3 +22,4 @@ Union of Two Sorted Arrays
 Intersection of two sorted arrays
 Find the missing number in an array-https://leetcode.com/problems/missing-number/
 Max Consecutive One's in the array-https://leetcode.com/problems/max-consecutive-ones/description/
+Hashing -count frequency
