@@ -25,3 +25,13 @@ Max Consecutive One's in the array-https://leetcode.com/problems/max-consecutive
 Hashing -count frequency
 BFS-starting from 0th node
 BFS-from wherever you want (from any given node)
+Given a graph, design an algorithm and implement it using a program to find if a graph is bipartite or not. (Hint: use BFS) Input Format: Input will be the graph in the form of adjacency matrix or adjacency list.  Output Format: Output will be 'Yes Bipartite' if graph is bipartite, otherwise print 'Not Bipartite'.Sample I/O Problem II:
+                   Input:
+                    5
+                    0 1 1 0 0
+                    1 0 1 1 1
+                    1 1 0 1 0
+                    0 1 1 0 1
+                    0 1 0 1 0
+                    Output:
+                    Not Bipartite
