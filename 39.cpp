@@ -1,75 +1,68 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-// Maximum stack size
-const int MAX_SIZE = 100;
+const int MAX=5;
 
-// Push function
-void push(int arr[], int &top) {
-    if (top == MAX_SIZE - 1) {
-        cout << "Stack Overflow! Cannot push element." << endl;
+void Push(int arr[],int &top){
+    if(top==MAX-1){
+        cout<<"Stack Overflow";
         return;
     }
-
     int value;
-    cout << "Enter value to push: ";
-    cin >> value;
-
-    top = top + 1;
-    arr[top] = value;
-    cout << value << " pushed to stack." << endl;
+    cin>>value;
+    top=top+1;
+    arr[top]=value;
+    cout<<value<<" Pushed"<<endl;
 }
 
-// Pop function
-void pop(int arr[], int &top) {
-    if (top == -1) {
-        cout << "Stack Underflow! Cannot pop element." << endl;
+void Pop(int arr[],int &top){
+    if(top==-1){
+        cout<<"Stack Empty"<<endl;
         return;
     }
-
-    int value = arr[top];
-    top = top - 1;
-    cout << value << " popped from stack." << endl;
+    int value=arr[top];
+    top=top-1;
+    cout<<value<<" Poped"<<endl;
 }
 
-// Display function
-void display(const int arr[], int top) {
-    if (top == -1) {
-        cout << "Stack is empty." << endl;
+void Display(int arr[],int top){
+    if(top==-1){
+        cout<<"Stack Empty"<<endl;
         return;
     }
-
-    cout << "Stack elements: ";
-    for (int i = top; i >= 0; i--) {
-        cout << arr[i] << " ";
+    cout<<"Elements are "<<endl;
+    for(int i=top;i>=0;i--){
+        cout<<arr[i]<< " ";
     }
-    cout << endl;
+    cout<<endl;
 }
+//Parameter Passing: In the Display function, the top parameter is passed by value (int top) instead of by reference (int &top). This is because the Display 
+//function doesn't modify the stack's state (it only reads it), so there is no need to pass top by reference
 
-int main() {
-    int stack_array[MAX_SIZE];
-    int top = -1;
+int main(){
+    int arr[MAX];
+    int top=-1;
     int choice;
-
-    while (true) {
+    while(true){
         cout << "\n1. Push\n2. Pop\n3. Display\n4. Exit\nEnter choice: ";
-        cin >> choice;
+        cin>>choice;
 
-        switch (choice) {
-            case 1:
-                push(stack_array, top);
+        switch(choice){
+            case 1: 
+                Push(arr,top);
                 break;
-            case 2:
-                pop(stack_array, top);
+            case 2: 
+                Pop(arr,top);
                 break;
-            case 3:
-                display(stack_array, top);
+            case 3: 
+                Display(arr,top);
                 break;
-            case 4:
-                cout << "Exiting..." << endl;
+            case 4: 
+                cout<<"Exiting...";
                 return 0;
             default:
-                cout << "Invalid choice!" << endl;
+            cout<<"INVALID CHOICE"<<endl;
         }
     }
+    return 0;
 }
