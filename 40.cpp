@@ -10,7 +10,7 @@ void Enqueue(int queue[],int &front,int &rear){
     cout<<"enter value ";
     cin>>value;
     if(front==-1 && rear==-1){
-        front=rear=0;
+        front=rear=0;   //initial step to move rear
     }else{
         rear++;
     }
@@ -22,10 +22,10 @@ void Dequeue(int queue[],int &front,int &rear){
         cout<<"queue is empty";
         return;
     }else if(front == rear){
-        front=rear=-1;
+        front=rear=-1;   //both equal then only one element in queue which will be dequeued by assigning 0  to both front and rear
     }else{
         value=queue[front];
-        front++;
+        front++;      // dequeue usinf front only and push using rear onlt
     }
     cout<<"dequeued element is "<<value<<endl;
 }
