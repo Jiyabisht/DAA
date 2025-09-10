@@ -7,8 +7,8 @@ bool is_valid(string str){
     for(int i=0;i<str.size();i++){
         char ch=str[i];
         if(str[i]=='(' || str[i]=='{' || str[i]=='['){
-            sta.push(ch);
-        }else if(str[i]==')' || str[i]=='}' || str[i]==']'){
+            sta.push(ch);  //opening
+        }else if(str[i]==')' || str[i]=='}' || str[i]==']'){      //closing
             if(sta.empty()) return false;
             else if((sta.top()=='(' && str[i]==')')||
                     (sta.top()=='{' && str[i]=='}') ||
