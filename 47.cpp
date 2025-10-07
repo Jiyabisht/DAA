@@ -29,3 +29,31 @@ int main(){
 
 
 //using stack
+
+#include<iostream>
+#include<stack>
+using namespace std;
+
+int maxpara(string str){
+    int currentdepth=0;
+    int maxdepth=0;
+    stack<char>stackk;
+    for(int i=0;i<str.length();i++){
+        char ch= str[i];
+        if(ch=='('){
+            stackk.push(ch);
+            maxdepth=max(maxdepth,(int)stackk.size());
+        }else if(ch==')'){
+            stackk.pop();
+        }
+    }
+    return maxdepth;
+}
+
+int main(){
+    string s;
+    cout<<"enter string : ";
+    cin>>s;
+    cout<<"MAX PARA : "<<maxpara(s);
+    return 0;
+}
