@@ -45,3 +45,4 @@ STACK-valid parenthesis
 Reverse a stack
 Remove outermost parenthesis
 Maximum Nesting depth of a parenthesis
+Minimum add to make a parenthesis Valid
